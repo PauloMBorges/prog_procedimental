@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    float C, K;
+    printf("Digite a temperatura em Kelvin: ");
+    scanf("%f",&K);
+    C = K - 273.15;
+    printf("A temperatura %f K em Celsius eh %f",K, C);
+    return 0;
+
+}

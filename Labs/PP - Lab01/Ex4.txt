@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    float n, q;
+    printf("Digite um número: ");
+    scanf("%f", &n);
+    q = n * n;
+    printf("O quadrado do numero eh %.2f", q);
+
+    return 0;
+
+}
+

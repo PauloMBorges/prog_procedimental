@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float n, q;
+    printf("Digite um número: ");
+    scanf("%f", &n);
+    q = n / 5;
+    printf("A quinta parte do numero eh %f", q);
+
+    return 0;
+
+}
