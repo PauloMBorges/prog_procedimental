@@ -2,7 +2,7 @@
 G = R*180/, sendo G o ângulo em graus e R em radianos e  = 3.141592. */
 
 #include <stdio.h>
-pi = 3.141592;
+#define pi = 3.141592
 int main()
 {
     float g, r;
