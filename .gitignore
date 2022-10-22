@@ -40,6 +40,8 @@
 *.x86_64
 *.hex
 
+*.vscode/
+
 # Debug files
 *.dSYM/
 *.su
