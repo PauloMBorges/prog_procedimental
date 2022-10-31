@@ -9,6 +9,7 @@ int main(){
 
     printf("Digite um numero inteiro: ");
     scanf("%d", &n);
+    printf("\n%d primeiros numeros naturais impares: \n\n", n);
 
     i = 0;
     // impar = (n % 2 != 0)
