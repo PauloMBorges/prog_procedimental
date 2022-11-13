@@ -68,33 +68,19 @@ int main(){
         }
     } while (saque > 0);
 
-    if (n_notas_100 > 0){
-        printf("%d notas de R$100\n", n_notas_100);
-    }
+    if (n_notas_100 > 0) printf("%d notas de R$100\n", n_notas_100);
 
-    if (n_notas_50 > 0){
-        printf("%d notas de R$50\n", n_notas_50);
-    }
+    if (n_notas_50 > 0) printf("%d notas de R$50\n", n_notas_50);
 
-    if (n_notas_20 > 0){
-        printf("%d notas de R$20\n", n_notas_20);
-    }
+    if (n_notas_20 > 0) printf("%d notas de R$20\n", n_notas_20);
 
-    if (n_notas_10 > 0){
-        printf("%d notas de R$10\n", n_notas_10);
-    }
+    if (n_notas_10 > 0) printf("%d notas de R$10\n", n_notas_10);
 
-    if (n_notas_5 > 0){
-        printf("%d notas de R$5\n", n_notas_5);
-    }
+    if (n_notas_5 > 0) printf("%d notas de R$5\n", n_notas_5);
 
-    if (n_notas_2 > 0){
-        printf("%d notas de R$2\n", n_notas_2);
-    }
+    if (n_notas_2 > 0) printf("%d notas de R$2\n", n_notas_2);
 
-    if (n_notas_1 > 0){
-        printf("%d notas de R$1\n", n_notas_1);
-    }
+    if (n_notas_1 > 0) printf("%d notas de R$1\n", n_notas_1);
 
     return 0;
 }
