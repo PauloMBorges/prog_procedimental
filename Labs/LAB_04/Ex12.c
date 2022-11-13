@@ -2,8 +2,6 @@
 desse número, com exceção dele próprio. Ex.: a soma dos divisores do número 66 é 1 + 2 + 3 + 
 6 + 11 +22 + 33 = 78  */
 
-// CHECAR SE PRECISA DE NUMERO NEGATIVO FUNCIONAR
-
 #include <stdio.h>
 
 int main(){
