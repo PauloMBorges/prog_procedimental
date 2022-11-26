@@ -27,9 +27,7 @@ int main(){
         }
     }
 
-
-
-   printf("\nMenu de opcoes\n");
+    printf("\nMenu de opcoes\n");
     printf("a) somar as duas matrizes\n");
     printf("b) subtrair a primeira matriz da segunda\n");
     printf("c) adicionar uma constante aas duas matrizes\n");
