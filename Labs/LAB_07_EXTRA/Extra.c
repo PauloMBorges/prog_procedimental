@@ -1,3 +1,7 @@
+/* Considerando o tipo de dislalia do Cebolinha, faça um programa em C que, dada uma
+string de entrada, gere uma string de saída com todos ‘r’ e ‘rr’ trocados por ‘l’, exceto para os
+casos que o ‘r’ está no final das palavras. */
+
 #include <stdio.h>
 #include <string.h>
 
