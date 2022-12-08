@@ -12,7 +12,7 @@ int main(){
     printf("Digite uma string: ");
     fgets(str, 100, stdin);
 
-    for (int i = 0; i < str[i]; i++){
+    for (int i = 0; i < strlen(str); i++){
         if (str[i] == '1') count++; 
     }
 
