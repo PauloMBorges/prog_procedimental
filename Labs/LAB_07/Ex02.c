@@ -12,11 +12,13 @@ int main(){
     printf("Digite uma string: ");
     fgets(str, 100, stdin);
 
-    for (int i = 0; i < strlen(str); i++){
+    int len = strlen(str);
+
+    for (int i = 0; i < len; i++){
         if (str[i] == '1') count++; 
     }
 
-    int len = strlen(str);
+    
     if (len > 0 && str[len-1] == '\n') str[len-1] = '\0';
 
     printf("%s -> %d", str, count);
