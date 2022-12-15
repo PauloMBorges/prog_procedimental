@@ -8,7 +8,6 @@ para representar um vetor no R3, implemente um programa que calcule a soma de do
 vetores. 
 
  */
-
 #include <stdio.h>
 #include <string.h>
 
